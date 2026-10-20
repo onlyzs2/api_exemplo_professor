@@ -5,7 +5,11 @@
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
+<<<<<<< HEAD
     "dev": "bide --watch server.js"
+=======
+    "dev": "node --watch server.js"
+>>>>>>> 59fd0fc1fb7e3e9f7873c58cf7e15c2c9ca88e78
   },
   "keywords": [],
   "author": "",
@@ -13,7 +17,11 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
     "express": "^5.2.1",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
     "multer": "^2.4.0",
     "mysql2": "^3.24.4"
   }
